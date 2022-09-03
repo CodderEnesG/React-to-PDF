@@ -334,7 +334,7 @@ const Example = () => {
             // setPrint(true);
           }}
         >
-          PDF'i indir
+          Download PDF
         </button>
       </div>
       <div
@@ -360,7 +360,7 @@ const Example = () => {
                 setAdd(true);
               }}
             >
-              Dairesel Grafik Ekle
+              Add Pie Chart
             </button>
           </div>
         ) : (
@@ -379,7 +379,7 @@ const Example = () => {
                   setAdd(false);
                 }}
               >
-                Dairesel Grafik Çıkar
+                  Remove Pie Chart
               </button>
             </div>
           </div>
@@ -399,7 +399,7 @@ const Example = () => {
                 setAddCol(true);
               }}
             >
-              Sütun Grafik Ekle
+               Add Bar Chart
             </button>
           </div>
         ) : (
@@ -419,7 +419,7 @@ const Example = () => {
                   setAddCol(false);
                 }}
               >
-                Sütun Grafik Çıkar
+                  Remove Pie Chart
               </button>
             </div>
           </div>
